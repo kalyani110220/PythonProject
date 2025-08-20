@@ -13,3 +13,11 @@ quantity= int(input("Enter the quantity: "))
 total = price * quantity
 print(f"You have bought {quantity} of {item} at {total}.")
 print(f"The total price is {total}")
+
+# Exercise 3 circumference of a circle
+
+import math
+radius=float(input("Enter the radius: "))
+circumference= 2 * math.pi * radius
+print(f"The circumference  is {round(circumference,2)}cms")
+
