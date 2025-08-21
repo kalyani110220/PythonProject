@@ -28,3 +28,11 @@ radius=float(input("Enter the radius: "))
 area = math.pi * radius ** 2
 print(f"The area of {radius} x {radius} is {area}cm2")
 
+#Excercise 5 the hypotenuse of a right or right-angled triangle
+
+import math
+a=float(input("Enter the a: "))
+b=float(input("Enter the b: "))
+c= math.sqrt(pow(a,2)+pow(b,2))
+print(f"The area of {a} x {b} is {c}cm2")
+
