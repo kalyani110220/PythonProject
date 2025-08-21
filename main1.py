@@ -21,3 +21,10 @@ radius=float(input("Enter the radius: "))
 circumference= 2 * math.pi * radius
 print(f"The circumference  is {round(circumference,2)}cms")
 
+# Exercise 4 Area of circle
+
+import math
+radius=float(input("Enter the radius: "))
+area = math.pi * radius ** 2
+print(f"The area of {radius} x {radius} is {area}cm2")
+
