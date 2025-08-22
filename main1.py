@@ -36,3 +36,23 @@ b=float(input("Enter the b: "))
 c= math.sqrt(pow(a,2)+pow(b,2))
 print(f"The area of {a} x {b} is {c}cm2")
 
+#python calculator
+
+operator = input("Enter an operator(+ - * /): ")
+number1 = float(input("Enter the number: "))
+number2 = float(input("Enter the number: "))
+if operator == "+":
+    print(number1 + number2)
+elif operator == "-":
+    print(number1 - number2)
+elif operator == "*":
+    print(number1 * number2)
+elif operator == "/":
+    print(number1 / number2)
+else:
+    print("Invalid operator")
+
+
+
+
+
