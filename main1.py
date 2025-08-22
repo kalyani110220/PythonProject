@@ -52,6 +52,18 @@ elif operator == "/":
 else:
     print("Invalid operator")
 
+#python weight converter
+
+weight = float(input("Enter the weight: "))
+unit= input("kilograms or Pounds?(K or L): ")
+if unit == "K":
+ print(weight * 2.205)
+elif unit == "L":
+    print(weight / 2.205)
+else:
+    print("Invalid unit")
+
+
 
 
 
